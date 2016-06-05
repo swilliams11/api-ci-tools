@@ -189,11 +189,11 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<!--environmentVariables>
+							<environmentVariables>
 								<NODE_ENV>
 									${apigee.env}
 								</NODE_ENV>
-							</environmentVariables-->
+							</environmentVariables>
 							<executable>tests/node_modules/cucumber/bin/cucumber.js</executable>
 							<arguments>
 								<argument>tests/integration.${apickli.env}</argument>

@@ -177,7 +177,8 @@
 			</plugin>
 
 			<!-- run cucumber / apickli tests -->
-			<!--plugin>
+			<!--
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 			
@@ -199,13 +200,14 @@
 							<executable>tests/node_modules/cucumber/bin/cucumber.js</executable>
 							<arguments>
 								<argument>tests/integration.${apickli.env}</argument>
-                            	<argument>--format</argument>
+                            	<argument>format</argument>
                             	<argument>json:reports.json</argument>
                         	</arguments>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin-->
+			</plugin>
+		-->
 
 
 		</plugins>
